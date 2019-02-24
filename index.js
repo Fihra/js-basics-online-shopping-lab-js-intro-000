@@ -60,7 +60,8 @@ function total() {
   for(let count = 0; count < getCart().length; count++)
   {
     fullTotal += getCart()[count].itemPrice;
-  }return fullTotal;
+  }
+  return fullTotal;
 }
 
 function removeFromCart(item) {
