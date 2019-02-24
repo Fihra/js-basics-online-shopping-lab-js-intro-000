@@ -15,7 +15,7 @@ function addToCart(item) {
     itemName: item,
     itemPrice: randNum
   }
-  cart.unshift(newItem);
+  cart.push(newItem);
   return `${newItem.itemName} has been added to your cart.`;
 
 }
